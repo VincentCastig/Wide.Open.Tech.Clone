@@ -1,0 +1,189 @@
+
+html body{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  position: relative;
+}
+
+.back_image{
+  background: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  position: absolute;
+  left: 0px;
+
+  z-index: -1;
+}
+.top_left_logo{
+
+  width: 150px;
+  height: 50px;
+  height: auto;
+  display:inline-table;
+}
+img{
+  width: auto;
+  height: auto;
+}
+.container{
+  padding: 30px 0;
+  width: 80%;
+  margin: auto;
+}
+header{
+  display: inline-flex;
+  height:30px;
+  width: 100%;
+}
+.header_list a:link{
+
+  text-decoration: none;
+}
+.header_list a:active {
+  color: white;
+}
+
+.header_list a:visited {
+  color: white;
+}
+.header_list a:hover {
+  color: white;
+  border-bottom: solid;
+  border-bottom-color: #c8e23a;
+}
+
+.header_list{
+  list-style: none;
+  color: white;
+  width:100%;
+  height: auto;
+  display:inline-flex;
+  margin: inherit;
+  justify-content: flex-end;
+}
+.header_list li{
+  margin: 0 10px;
+}
+.workshop_plus {
+  padding-top: 70px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.your_digital{
+  margin-right: 400px;
+  color: white;
+  display: block;
+  font-size: 22px;
+  font-weight: 500;
+
+
+}
+.work{
+  color: white;
+  display: block;
+  font-size: 155px;
+  font-family: Oswald;
+  font-weight: 300;
+
+}
+.building_text{
+  color: white;
+  display: block;
+  margin:auto 20% auto 20%;
+  font-size: 18px;
+  position: relative;
+  font-weight: 500;
+}
+.building_text::before{
+  content: close-quote;
+  display: inline-flex;
+  position: absolute;
+  width: 15%;
+  height: 10px;
+  background-color: white;
+  color: white;
+  right: auto;
+  left: -10%;
+}
+.building_text::after{
+  content: close-quote;
+  display: inline-block;
+  position: absolute;
+  width: 15%;
+  height: 10px;
+  background-color: white;
+  color: white;
+  right: -10%;
+  left: auto;
+
+}
+
+.orange_text{
+  color: #ff803a
+}
+.green{
+  color: #c8e23a;
+}
+.learn_more{
+
+  display: block;
+  margin: 20px auto;
+  width: 350px;
+  height: 50px;
+  border-radius: 40px;
+  border-style: hidden;
+  background-color: #c8e23a;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+.bottom_container{
+  background-color: #F0F0F0;
+  width: 100%;
+  height: 600px;
+}
+
+.bottom_text{
+  height: 200px;
+  width: 65%;
+  text-align: center;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: #6a787c;
+  line-height: 36px;
+}
+.wrench_logo{
+
+display: block;
+width: 140px;
+height: 140px;
+overflow: hidden;
+margin: 0 auto;
+margin-bottom: 20px;
+position: relative;
+}
+.wrench_img{
+
+  margin-top: -90px;
+  margin-left: 20px;
+  position: absolute;
+
+}
+
+
+@media (max-width: 1000px) {
+  .header_list{
+    display: none;
+    background-image: url ("./wideopen-icons-master/img/HAM-IMG.png")
+  }
+
+}
